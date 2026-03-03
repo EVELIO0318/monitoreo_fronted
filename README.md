@@ -1,12 +1,79 @@
-# React + Vite
+# 📡 Sistema de Monitoreo de Red – Frontend   
+React · Vite · JavaScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es la **parte frontend del Sistema de Monitoreo**, desarrollado con **React y Vite**, que permite al usuario visualizar el estado de la red de todas las filiales en tiempo real.  
+Cuando se detecta una caída en alguna filial, el sistema muestra la alerta correspondiente y permite enviar un correo electrónico al proveedor con evidencia visual del incidente.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## ⚙️ Instalación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clona el repositorio
+```bash
+git clone https://github.com/EVELIO0318/monitoreo-frontend.git
+
+
+### 2. Entra en la carpeta del proyecto
+cd monitoreo-frontend
+
+### 3. Instala las dependencias
+yarn install
+```
+
+
+---
+
+
+## 🚀 Uso
+### Inicia la aplicación en modo desarrollo
+  yarn dev
+  Esto levantará un servidor local en Vite (por defecto en http://localhost:5173).
+
+### Abre tu navegador y visita:
+
+  http://localhost:5173
+
+---
+
+
+### ✨ Características
+
+📡 Dashboard en tiempo real con todas las filiales y su estado de red (verde → activo, rojo → caída)
+
+📧 Envío automático de correos al proveedor al detectar problemas, con posibilidad de adjuntar evidencia visual
+
+📊 Historial de incidentes por filial, para seguimiento y análisis
+
+🌐 Navegación clara usando React Router
+
+🎨 Diseño moderno y responsivo, adaptable a escritorio y dispositivos móviles
+
+---
+
+### 🛠️ Tecnologías
+
+React – Biblioteca para construcción de UI
+
+Vite – Herramienta de construcción ultrarrápida
+
+JavaScript – Lenguaje principal del proyecto
+
+Yarn – Gestión de dependencias
+
+Axios / Fetch – Consumo de la API REST del backend
+
+
+---
+
+### 📄 Licencia
+
+Este proyecto fue elaborado por el Ing. Evelio Escobar,
+todos los Derechos Reservados.
+
+
+📧 Contacto
+Evelio Escobar
+📩 evelio.villeda9@gmail.com
+
+### ¡Gracias por visitar este proyecto! 🚀
